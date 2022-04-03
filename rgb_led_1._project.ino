@@ -12,8 +12,8 @@ void loop() {
 int rDeger=random(0,255); // burada kırmızı renk olan pine random bir değer veriyoruz 0 ile 255 arası:
 int gDeger=random(0,255); // burada yeşil renk olan pine random bir değer veriyoruz 0 ile 255 arası:
 int bDeger=random(0,255); // burada mavi renk olan pine random bir değer veriyoruz 0 ile 255 arası:
-analogWrite(R,rDeger); // buradada ledleri yskıyoruz :
-analogWrite(G,gDeger); // buradada ledleri yskıyoruz :
-analogWrite(B,bDeger); // buradada ledleri yskıyoruz :
+analogWrite(R,rDeger); // buradada ledleri yakıyoruz :
+analogWrite(G,gDeger); // buradada ledleri yakıyoruz :
+analogWrite(B,bDeger); // buradada ledleri yakıyoruz :
 delay(1000); //1000 milisaniye bekliyoruz siz isterseniz 500 veya 100 yapabilirsiniz:
 }
