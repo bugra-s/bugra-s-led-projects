@@ -10,7 +10,7 @@ delay(100);
 digitalWrite(7, LOW);
 delay(100);
 
-
+//FİRST STEP AT THE BLİNK PROJECT
 
 
 }
